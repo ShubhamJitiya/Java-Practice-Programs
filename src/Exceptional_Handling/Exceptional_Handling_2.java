@@ -25,7 +25,7 @@ public class Exceptional_Handling_2 {
         //ArithmeticException
         System.out.println("ArithmeticException: ");
         try{
-            int data = 100/0;
+//            int data = 100/0;
 
             System.out.println(100/0);
         }
