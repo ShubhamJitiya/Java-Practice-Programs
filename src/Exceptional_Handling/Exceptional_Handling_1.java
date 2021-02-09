@@ -24,7 +24,6 @@ public class Exceptional_Handling_1 {
         //Execution Continues
         System.out.println("Continue Execution ...");
 //*/
-
     }
 }
 
