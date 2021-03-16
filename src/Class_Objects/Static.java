@@ -17,23 +17,36 @@ class Emp
     {
         System.out.println(eid + " : " + salary + " : " + ceo);
     }
+
+    static
+    {
+        ceo = "Larry";
+    }
+    public Emp()
+    {
+        eid = 1;
+        salary = 3000;
+//        ceo = "Larry"; //Don't need - Because it creates copy everytime
+    }
 }
 public class Static {
     public static void main(String[] args) {
         Emp navin = new Emp();
-        navin.eid = 8;
-        navin.salary = 4000;
-//        navin.ceo = "Mahesh";
-        Emp.ceo = "Mahesh"; //As SAME MEMORY is used in static, don't need to mention reference variable
+
+//        navin.eid = 8;
+//        navin.salary = 4000;
+////        navin.ceo = "Mahesh";
+//        Emp.ceo = "Mahesh"; //As SAME MEMORY is used in static, don't need to mention reference variable
 
         Emp rahul = new Emp();
-        rahul.eid = 6;
-        rahul.salary = 5000;
-//        rahul.ceo = "Mahesh";
-        Emp.ceo = "Mahesh";
-
-//        rahul.ceo = "Nikita"; //This will change value for all objects
-        Emp.ceo = "Nikita";
+//
+//        rahul.eid = 6;
+//        rahul.salary = 5000;
+////        rahul.ceo = "Mahesh";
+//        Emp.ceo = "Mahesh";
+//
+////        rahul.ceo = "Nikita"; //This will change value for all objects
+//        Emp.ceo = "Nikita";
 
         navin.show();
         rahul.show();
