@@ -18,18 +18,18 @@ class Student
         System.out.println("Name: " + name);
     }
 }
-    public class Reference_Variable {
+public class Reference_Variable {
     public static void main(String[] args) {
-    Student s1 = new Student();
-    Student s2 = new Student();
+        Student s1 = new Student();
+        Student s2 = new Student();
 
 //s1 & s2 are object reference variable
 //used to access methods and data members
 
-    s1.get_data(101, "Ankita");
-    s2.get_data(102, "Anjali");
-    s1.put_data();
-    s2.put_data();
+        s1.get_data(101, "Ankita");
+        s2.get_data(102, "Anjali");
+        s1.put_data();
+        s2.put_data();
 
     }
 }
