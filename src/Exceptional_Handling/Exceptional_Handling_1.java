@@ -52,7 +52,7 @@ finally{
 
 ----------------------------------------------------------------------------------------------
 
-throw - throw an exceptinal
+throw - throw an exceptional
 throws - declare exceptional always used with method signature
 
  */
