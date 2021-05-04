@@ -1,6 +1,6 @@
 package Class_Objects;
 
-class Student1 extends Object //every class in java extends java
+class Student1 extends Object //every class in java extends objects
 {
     int rollno;
     String sname;
